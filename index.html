@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyaya Portal</title>
+
+    <style>
+    * {
+     margin: 0;
+     font-family: Arial;
+     border: border-box;
+    }
+
+    .navbar {
+     height: 150px;
+     background-color: white;
+     color: black;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     }
+
+    .nav-logo{
+     height: 150px;
+     width: 150px;
+     }
+
+    .logo{
+     background-image: url("Government.png");
+     height: 100px;
+     width: 150px;
+     }
+
+    .border{
+        border: 2px solid transparent;
+     }
+
+    .border:hover{
+        border: 1.5px solid black;
+     }
+
+     /* box 2 */
+    .add-first{
+        color: #cccccc;
+        font-size: 0.85;
+        margin-left: 15px;
+     }
+
+    .add_sec{
+        font-size: 1rem;
+        margin-left: 3px;
+     }
+
+    .add-icon{
+        display: flex;
+        align-items: center;
+     }
+     
+     /* box 3 */
+    .nav-search{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: pink;
+        width: 620px;
+        height: 50px;
+        border-radius: 4px;
+     }
+
+    .search-select{
+        background-color: #2b2617;
+        width: 620px;
+        text-align: center;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border: none;
+        font-size: x-large;
+        color: #fff;
+     }
+
+    .search-input{
+        width: 100%;
+        font-size: 1rem;
+        border : none;
+
+     }
+
+    .search-icon{
+        width: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        background-color: #c0aa70;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        color: white;
+     }
+
+    .nav-search:hover{
+      border: 2px solid #95835c;
+     }
+
+    .nav-second{
+        font-size: 0.85rem;
+        font-weight: 700;
+     }
+
+     /* panel */
+    .panel{
+        height: 40px;
+        background-color: #2b2617;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: space-evenly;
+     }
+
+    .panel-ops a {
+        display: inline; 
+        margin-left: 50px ;
+    }
+
+    .panel-ops{
+        width: 80%;
+        font-size: larger;
+    }
+
+    .panel-deals{
+        font-size: large;
+        font-weight: 350 ;
+    }
+
+    .hero-section {
+        background-image: url("final\ bg.jpeg");
+        height: 550px;
+        background-size: 1050px ;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    /* footer */
+    .foot-panel4{
+        background-color: #0f1111;
+        color: white;
+        height: 100px;
+        text-align: center;
+        font-size: 0.7rem;
+    }
+
+    .pages{
+        padding-top: 25px;        
+    }
+
+    .copyright{
+        padding-top: 5px;
+    }
+    .link{
+        color: #fff;
+        text-decoration: none;
+    }
+    .link:hover{
+        color: #c0aa70;
+        text-decoration: none;
+    }
+    .name{
+        font-size: xx-large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+             <div class="nav-logo border">
+                <div class="logo">
+                    <img src="Government.png" alt="Company Logo" height="150px" width="150px">
+                </div>
+             </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All Services</option>
+                    <option>Register a Complaint</option>
+                    <option>Ask a Question</option>
+                    <option>Legal Documentation</option>
+                </select>
+               
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            
+            <div class="name">
+                <p><span>
+                    MINISTRY OF LAW AND JUSTICE
+                </span></p>
+            </div>
+        </div>
+        
+        <div class="panel">
+            <div class="panel-ops">
+                <a href="/about us.html" class="link">About Us</a>
+                <a href="/login.html" class="link">Know Your Kanoon</a>
+                <a href="/payment.html" class="link">Seek a lawyer</a>
+                <a href="/registration.html" class="link">Contact Us</a>
+           </div>
+            <div class="panel-deals">
+                 Highlighted Cases-Future Aspects
+            </div>
+         </div>     
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-msg">
+            
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 1996-2023, Nyaya Portal.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
